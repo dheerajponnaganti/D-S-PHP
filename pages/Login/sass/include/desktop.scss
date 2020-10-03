@@ -1,0 +1,36 @@
+@media only screen and (min-width: 700px) {
+  input,
+  button {
+    width: 35%;
+  }
+  .logo {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: 5px;
+    line-height: 2rem;
+    h3 {
+      font-weight: 700;
+      font-size: 2rem;
+      color: $lighter;
+    }
+    span {
+      display: block;
+      font-size: 1.4rem;
+      color: $dark;
+      font-weight: 500;
+    }
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .title h4 {
+    font-size: 1.6rem;
+  }
+  input,
+  button {
+    width: 25%;
+    font-size: 0.9rem;
+  }
+}

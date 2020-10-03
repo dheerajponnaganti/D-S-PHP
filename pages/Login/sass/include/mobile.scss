@@ -1,0 +1,109 @@
+main {
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+h3,
+h4,
+hr {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  letter-spacing: 5px;
+  line-height: 1.5rem;
+}
+h3 {
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: $lighter;
+}
+span {
+  display: block;
+  font-size: 1.2rem;
+  color: $dark;
+  font-weight: 500;
+}
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  h4 {
+    color: $lighter;
+    font-weight: 400;
+    font-size: 1.4rem;
+    padding-bottom: 1.5rem;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 60%;
+  padding: 0.5rem 1rem;
+  margin-bottom: 1.2rem;
+  font-size: 0.8rem;
+  background: none;
+  border: none;
+  color: $lighter;
+  font-weight: 100;
+  border-bottom: 2px solid $lighter;
+  border-radius: 2px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  width: 60%;
+  margin-top: 0.5rem;
+  padding: 0.7rem;
+  border: none;
+  background: $lighter;
+  font-size: 0.7rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  background: #9e9e9e;
+  color: $lighter;
+}
+
+.noselect {
+  user-select: none;
+}
+.footer {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: 0.7rem;
+  a {
+    color: $dark;
+    text-decoration: none;
+  }
+  p {
+    color: $lighter;
+  }
+}

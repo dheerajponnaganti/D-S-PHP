@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+/* Global Classes */
+* {
+  margin: 0;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+
+button,
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.color-dark {
+  color: #8d93ab;
+}
+
+.color-darker {
+  color: #4e5161;
+}
+
+.color-darkest {
+  color: #393b44;
+}
+
+.color-light {
+  color: #d6e0f0;
+}
+
+.color-lighter {
+  color: #f1f3f8;
+}
+
+.bg-color-dark {
+  background-color: #8d93ab;
+}
+
+.bg-color-darker {
+  background-color: #4e5161;
+}
+
+.bg-color-darkest {
+  background-color: #393b44;
+}
+
+.bg-color-light {
+  background-color: #d6e0f0;
+}
+
+.bg-color-lighter {
+  background-color: #f1f3f8;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-brand h3 {
+  color: #f1f3f8;
+  font-size: 1.3rem;
+}
+.navbar-brand h3 span {
+  color: #8d93ab;
+  font-size: 1rem;
+}
+
+.navbar-toggler {
+  color: #f1f3f8 !important;
+}
+
+.nav-link {
+  color: #f1f3f8 !important;
+  font-size: 0.8rem;
+}
+
+.rounded-pill {
+  font-size: 1rem;
+}
+
+.fa-shopping-cart {
+  font-size: 1rem;
+}
+
+@media only screen and (min-width: 990px) {
+  .navbar {
+    min-height: 10vh;
+    padding: 0rem 5rem;
+  }
+
+  .navbar-nav {
+    margin-left: 5rem;
+  }
+  .navbar-nav .nav-link {
+    margin-left: 3.5rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

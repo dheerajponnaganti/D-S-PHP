@@ -1,0 +1,44 @@
+/* Global Classes */
+* {
+  margin: 0;
+}
+body {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+
+button,
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+.color-dark {
+  color: $dark;
+}
+.color-darker {
+  color: $darker;
+}
+.color-darkest {
+  color: $darkest;
+}
+.color-light {
+  color: $light;
+}
+.color-lighter {
+  color: $lighter;
+}
+.bg-color-dark {
+  background-color: $dark;
+}
+.bg-color-darker {
+  background-color: $darker;
+}
+.bg-color-darkest {
+  background-color: $darkest;
+}
+.bg-color-light {
+  background-color: $light;
+}
+.bg-color-lighter {
+  background-color: $lighter;
+}
